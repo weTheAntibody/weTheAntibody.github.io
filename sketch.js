@@ -760,7 +760,7 @@ function Scene1() {
 		rect(1174 * scale, 825 * vScale, 221 * scale, 40 * vScale, 50);
 		fill(2.5 * (100 - friendshipIndex) + 100, 2.5 * friendshipIndex, 100, 255);
 		noStroke();
-		rect(1182 * scale, 832 * vScale, 204 * (friendshipIndex/100) * scale, 26 * vScale, 50);
+		rect(1182 * scale, 832.5 * vScale, 205 * (friendshipIndex/100) * scale, 26 * vScale, 50);
 	}
 
 	// Handles the mouse pressed event passed down by our scene manager
@@ -962,7 +962,7 @@ function Scene2() {
 			this.drawText();
 			this.drawFriendship();
 		}
-		if (friendshipIndex < 40 && (dialogueIndex >= dialogue.length - 2 || dialogueIndex == 38 || dialogueIndex == 39)) {
+		if (friendshipIndex < 40 && (dialogueIndex > 69 || (dialogueIndex > 37 && dialogueIndex < 41))) {
 			friendshipIndex += 2;
 		}
 		if (quitMsg) {
@@ -1337,7 +1337,7 @@ function Scene2() {
 		rect(1174 * scale, 825 * vScale, 221 * scale, 40 * vScale, 50);
 		fill(2.5 * (100 - friendshipIndex) + 100, 2.5 * friendshipIndex, 100, 255);
 		noStroke();
-		rect(1182 * scale, 832 * vScale, 204 * (friendshipIndex/100) * scale, 26 * vScale, 50);
+		rect(1182 * scale, 832.5 * vScale, 205 * (friendshipIndex/100) * scale, 26 * vScale, 50);
 	}
 
 	// Handles the mouse pressed event passed down by our scene manager
@@ -1840,7 +1840,7 @@ function Scene3() {
 		rect(1174 * scale, 825 * vScale, 221 * scale, 40 * vScale, 50);
 		fill(2.5 * (100 - friendshipIndex) + 100, 2.5 * friendshipIndex, 100, 255);
 		noStroke();
-		rect(1182 * scale, 832 *vScale, 204 * (friendshipIndex/100) * scale, 26 * vScale, 50);
+		rect(1182 * scale, 832.5 * vScale, 205 * (friendshipIndex/100) * scale, 26 * vScale, 50);
 	}
 
 	// Handles the mouse pressed event passed down by our scene manager
@@ -2308,7 +2308,7 @@ function Scene4() {
 		rect(1174 * scale, 825 * vScale, 221 * scale, 40 * vScale, 50);
 		fill(2.5 * (100 - friendshipIndex) + 100, 2.5 * friendshipIndex, 100, 255);
 		noStroke();
-		rect(1182 * scale, 832 * vScale, 204 * (friendshipIndex/100) * scale, 26 * vScale, 50);
+		rect(1182 * scale, 832.5 * vScale, 205 * (friendshipIndex/100) * scale, 26 * vScale, 50);
 	}
 
 	// Handles the mouse pressed event passed down by our scene manager
@@ -2600,7 +2600,7 @@ function Scene5() {
 		rect(1174 * scale, 825 * vScale, 221 * scale, 40 * vScale, 50);
 		fill(2.5 * (100 - friendshipIndex) + 100, 2.5 * friendshipIndex, 100, 255);
 		noStroke();
-		rect(1182 * scale, 832 * vScale, 204 * (friendshipIndex/100) * scale, 26 * vScale, 50);
+		rect(1182 * scale, 832.5 * vScale, 205 * (friendshipIndex/100) * scale, 26 * vScale, 50);
 	}
 
 	// Handles the mouse pressed event passed down by our scene manager
