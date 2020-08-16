@@ -76,9 +76,9 @@ input[class^="btn-"]:hover {
 /* Navbar Styling */
 
 #logo {
-  width: 70px;
-  height: 70px;
-  color: black;
+  background-image: url('../img/logo.png');
+  width: 100px;
+  height: 80px;
 }
 
 #main-nav {
