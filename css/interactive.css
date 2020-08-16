@@ -1,0 +1,36 @@
+@font-face {
+  font-family: graphik;
+  src: url('../fonts/GraphikRegular.otf');
+}
+@font-face {
+  font-family: graphik;
+  src: url('../fonts/GraphikBold.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: graphik;
+  src: url('../fonts/GraphikRegularItalic.otf');
+  font-style: italic;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+
+  text-align: center;
+}
+
+h1 {
+  font-family: graphik, sans-serif;
+  font-weight: bold;
+}

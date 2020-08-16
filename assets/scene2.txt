@@ -1,0 +1,75 @@
+Okay, so where did all of my friends get that sort of misinformation...
+CRASHCOURSE
+Holy cow! I didn't know that misinformation came in so many different forms. I gotta teach my friends this stuff for sure...
+I'll talk to Drew first. I gotta convince him that pigeons are definitely not spies!
+Oh, hey Audrey.
+Drew! I really need to talk to you.
+Is it about the pigeon thing? I can't believe that you want to bring the government's little spies into our house.
+Yes, I definitely wanted to talk to you about that. I thought about your concerns and did some research about it.
+Oh man, you're not going to try to change my mind about this, are you?
+Well... I thought we could just talk about it. What do you say?
+I mean, I guess... I don't know, I feel like you're attacking me.
+I don't want to make you feel bad at all, really! I just think that you misunderstood something. You see, pigeons are not government surveillance and I can tell you how.
+But look at this post that says so. More than 20k people shared it!
+Drew shows Audrey a post he saw on Birdbook.
+OPTION
+How do you want to talk to Drew about his misunderstanding about pigeons?
+Explain that the post he saw was satire
+Explain that he can verify if a post is true by using critical observation
+Well, I think you may have misunderstood the intent of the post. Sometimes information is shared because it is meant to be taken as satire.
+But it's hard to discern nuance online and oftentimes satire turns into fake news that spreads faster and wider than the truth.
+So you're saying that this was just a joke? It doesn't seem like it.
+I understand your confusion. Why don't we look into some other sources about this topic?
+Hmm alright. I'm not super convinced but sure.
+Here, I just found an article about this "birds aren't real" phenomenon from the National Audubon Society.
+ARTICLE
+"The campaign relies on internet-fueled guerrilla marketing to spread its message, manifesting through real-world posters and Photoshopped propaganda tagged with the “Birds Aren’t Real” slogan.
+For much of its devoted fanbase, Birds Aren’t Real is a respite from America’s political divide—a joke so preposterous both conservatives and liberals can laugh at it. But for a few followers, this movement is no more unbelievable than QAnon, a right-wing conspiracy theory turned marketing ploy that holds that someone with high-level government clearance is planting coded tips in the news. Therein lies the genius of Birds Aren’t Real: It’s a digital breadcrumb trail that leads to a that leads to a shop full of ready-to-buy merchandise."
+Click Here for Source
+Wait — so this was all a joke for a marketing ploy? I had no idea!
+Yeah, I was surprised about it too! I have never heard of something like this before.
+I just thought that the Facebook post I showed you was the truth. I mean, it just sounded so shocking and groundbreaking!
+Yes, that's the intent behind satire. It can definitely be misunderstood.
+Whoa... I see. Audrey, I'm so sorry that I shot you down. I feel so bad that I actually believed in this stuff... Heh, now I'm kinda embarrassed.
+It's okay, Drew! We can all be wrong sometimes and that's okay. And it's definitely easy to be fooled by the things we see online.
+It's important to always do some research and look at reputable sources.
+Good call. I'll definitely be doing more research in the future. I made a straight up fool of myself online.
+It's never too late to fix your mistakes.
+Speaking of fixing mistakes — I totally have changed my mind. Audrey, if you want to get a pigeon, I say go for it. I don't have any problems with it anymore.
+Really? That's awesome, Drew, thank you so much! I appreciate you hearing me out.
+It's no problem, Audrey. Thanks for helping me understand. Go ahead and get that bird!
+I'm so excited to! I just need to get Emily and Jack on board with the idea. In fact, I think I'm going to talk to Emily right now.
+OPTIONENDING
+Well, I think you should take another look at the post. Does it have a link to any sort of article that you could read this about?
+Uhh, I guess not.
+Maybe the original poster has more information about it on their page. Who posted it?
+Oh, I dunno. Looks like "The Verified Reporter."
+Well, I have never heard of that news source before. Have you?
+No, this is the first time I have seen this source too.
+Drew, I'm pretty sure that this is not a reputable source. I think it's a fake news page.
+No way...
+Does the page have any sourced evidence or articles at all?
+Nah, all it has are a bunch of posts with statements like this one.
+But I don't get it, so many people shared it..
+"Viral" doesn't always guarantee "authentic." Only facts with evidence do. Why don't we look for some actual evidence?
+Sure...
+Here, I just found an article about this "birds aren't real" phenomenon from the National Audubon Society.
+ARTICLE
+"The campaign relies on internet-fueled guerrilla marketing to spread its message, manifesting through real-world posters and Photoshopped propaganda tagged with the “Birds Aren’t Real” slogan.
+For much of its devoted fanbase, Birds Aren’t Real is a respite from America’s political divide—a joke so preposterous both conservatives and liberals can laugh at it. But for a few followers, this movement is no more unbelievable than QAnon, a right-wing conspiracy theory turned marketing ploy that holds that someone with high-level government clearance is planting coded tips in the news. Therein lies the genius of Birds Aren’t Real: It’s a digital breadcrumb trail that leads to a that leads to a shop full of ready-to-buy merchandise."
+Click Here for Source
+Wait — so this was all a joke for a marketing ploy? I had no idea!
+Yeah, I was surprised about it too! I have never heard of something like this before.
+I just thought that the Facebook post I showed you was the truth. I mean, it just sounded so shocking and groundbreaking!
+Yes, that's the intent behind a lot of fake news sites. They use very shocking statements to try to get people to believe in things that appeal to emotions like outrage.
+Whoa... I see. Gosh, I feel silly that I didn't pay attention to all these clues that proved this wasn't real news.
+Audrey, I'm so sorry that I shot you down. I feel so bad that I actually believed in this stuff... Heh, now I'm kinda embarrassed.
+It's okay, Drew! We can all be wrong sometimes and that's okay. And it's definitely easy to be fooled by the things we see online.
+It's important to always do some research and look at reputable sources.
+Good call. I'll definitely be doing more research in the future. I made a straight up fool of myself online.
+It's never too late to fix your mistakes.
+Speaking of fixing mistakes — I totally have changed my mind. Audrey, if you want to get a pigeon, I say go for it. I don't have any problems with it anymore.
+Really? That's awesome, Drew, thank you so much! I appreciate you hearing me out.
+It's no problem, Audrey. Thanks for helping me understand. Go ahead and get that bird!
+I'm so excited to! I just need to get Emily and Jack on board with the idea. In fact, I think I'm going to talk to Emily right now.
+OPTIONENDING
