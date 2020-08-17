@@ -289,6 +289,8 @@ function Scene0() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
+		scale = Math.round(scale);
+		vScale = Math.round(scale);
     background(bg);
 		quitMsg = false;
   }
@@ -399,6 +401,8 @@ function Scene0() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
+		scale = Math.round(scale);
+		vScale = Math.round(scale);
 	}
 }
 // ================== SCENE 1 ==================
@@ -475,6 +479,8 @@ function Scene1() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
+		scale = Math.round(scale);
+		vScale = Math.round(scale);
     background(bg);
 		quitMsg = false;
 		birdBackground = this.sceneArgs[5].birdBackground;
@@ -802,6 +808,8 @@ function Scene1() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
+		scale = Math.round(scale);
+		vScale = Math.round(scale);
 	}
 }
 
@@ -900,6 +908,8 @@ function Scene2() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
+		scale = Math.round(scale);
+		vScale = Math.round(scale);
     background(bg);
 		quitMsg = false;
 		keyboardTypingShort = this.sceneArgs[5].typingShort;
@@ -1553,6 +1563,8 @@ function Scene2() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
+		scale = Math.round(scale);
+		vScale = Math.round(scale);
 	}
 }
 // ================== SCENE 3 ==================
@@ -1608,6 +1620,8 @@ function Scene3() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
+		scale = Math.round(scale);
+		vScale = Math.round(scale);
     background(bg);
 		quitMsg = false;
 		powerUp2 = this.sceneArgs[5].powerUp2;
@@ -1994,6 +2008,8 @@ function Scene3() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
+		scale = Math.round(scale);
+		vScale = Math.round(scale);
 	}
 }
 // ================== SCENE 4 ==================
@@ -2058,6 +2074,8 @@ function Scene4() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
+		scale = Math.round(scale);
+		vScale = Math.round(scale);
     background(bg);
 		quitMsg = false;
 		flashbackSound = this.sceneArgs[5].flashback;
@@ -2444,6 +2462,8 @@ function Scene4() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
+		scale = Math.round(scale);
+		vScale = Math.round(scale);
 	}
 }
 // ================== SCENE 5 ==================
@@ -2495,6 +2515,8 @@ function Scene5() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
+		scale = Math.round(scale);
+		vScale = Math.round(scale);
     background(bg);
 		quitMsg = false;
 		mouseClick = this.sceneArgs[5].mouseClick;
@@ -2720,5 +2742,7 @@ function Scene5() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
+		scale = Math.round(scale);
+		vScale = Math.round(scale);
 	}
 }
