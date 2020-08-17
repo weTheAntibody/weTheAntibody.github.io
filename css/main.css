@@ -272,7 +272,47 @@ input[class^="btn-"]:hover {
 
 /* Media Queries */
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 400px) {
+
+  nav {
+      position: relative;
+      color: black;
+      text-align: center;
+  }
+
+  h2 {
+      font-size: 1.8rem;
+  }
+
+  #textbox {
+      position: relative;
+      margin: 25% 10%;
+      color: black;
+      font-size: 1.8rem;
+  }
+  #header-phone {
+      display: block;
+      text-align: left;
+      height: 100vh;
+      background: url("../assets/Backgrounds/SVG/living room.svg") no-repeat 35% 20%;
+      background-size: cover;
+  }
+
+  #header-phone::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255,255,255,0.7);
+  }
+  #header-home {
+      display: none;
+  }
+}
+
+/* @media screen and (min-width: 992px) {
   .team-pictures {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -294,4 +334,4 @@ input[class^="btn-"]:hover {
   #header-home .header-content h1 {
     font-size: 2rem;
   }
-}
+} */
