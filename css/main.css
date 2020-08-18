@@ -274,21 +274,55 @@ input[class^="btn-"]:hover {
 
 @media screen and (max-width: 400px) {
 
-  nav {
-      position: relative;
-      color: black;
-      text-align: center;
+   .topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    justify-content: space-around;
+    font-size: 2rem;
+    display: flex;
   }
 
-  h2 {
-      font-size: 1.8rem;
+  .topnav a {
+      margin-top: 30px;
+  }
+
+  .topnav a i {
+      margin-top: 20px;
+  }
+
+  #directories {
+    display: none;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    font-size: 1.5rem;
+  }
+
+  #directories a {
+      margin-bottom: 5%;
+  }
+
+  nav {
+      display: flex;
+      position: relative;
+      justify-content: space-around;
+      font-size: 2rem;
+  }
+
+  #hamburger {
+      margin-top: 2%;
   }
 
   #textbox {
-      position: relative;
-      margin: 25% 10%;
+      position: absolute;
+      /* margin: 55% 10%; */
+      top: 300px;
+      left: 25px;
+      right: 25px;
       color: black;
-      font-size: 1.8rem;
+      font-size: 1.53rem;
   }
   #header-phone {
       display: block;
