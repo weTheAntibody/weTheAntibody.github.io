@@ -270,9 +270,13 @@ input[class^="btn-"]:hover {
   text-transform: lowercase;
 }
 
+#header-phone {
+    display: none;
+}
+
 /* Media Queries */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 680px) {
 
    .topnav {
     overflow: hidden;
