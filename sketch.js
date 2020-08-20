@@ -206,7 +206,8 @@ function preload() {
 		pitterNotification: loadSound('sound/twitter notification.mp3'),
 		uploadSFX: loadSound('sound/upload sfx.mp3'),
 		tenderness: loadSound('sound/music options/bensound-tenderness.mp3'),
-		happyUke: loadSound('sound/music options/Happy Ukelele.mp3')
+		happyUke: loadSound('sound/music options/Happy Ukelele.mp3'),
+		kitchenSong: loadSound('sound/kitchen.mp3')
 	};
 }
 
@@ -230,7 +231,8 @@ function setup() {
 	mgr.addScene ( Scene5 );
 
   mgr.showNextScene([actors, backgrounds, script, 100, graphik, sounds]);
-
+	sounds.kitchenSong.setVolume(0.1);
+	sounds.kitchenSong.loop();
 }
 
 
@@ -289,8 +291,8 @@ function Scene0() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
-		scale = Math.round(scale);
-		vScale = Math.round(scale);
+
+		
     background(bg);
 		quitMsg = false;
   }
@@ -401,8 +403,8 @@ function Scene0() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
-		scale = Math.round(scale);
-		vScale = Math.round(scale);
+
+
 	}
 }
 // ================== SCENE 1 ==================
@@ -455,6 +457,7 @@ function Scene1() {
 	var notification2;
 	var lowBattery;
 	var pigeonSFX2;
+	var kitchenSong;
 
 	// Another reserved function, sets up our canvas
   this.setup = function() {
@@ -479,8 +482,8 @@ function Scene1() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
-		scale = Math.round(scale);
-		vScale = Math.round(scale);
+
+
     background(bg);
 		quitMsg = false;
 		birdBackground = this.sceneArgs[5].birdBackground;
@@ -489,6 +492,7 @@ function Scene1() {
 		notification2 = this.sceneArgs[5].notification2;
 		lowBattery = this.sceneArgs[5].lowBattery;
 		pigeonSFX2 = this.sceneArgs[5].pigeonSFX2;
+		kitchenSong = this.sceneArgs[5].kitchenSong;
   }
 
 	// enter() happens after setup() but before draw()
@@ -518,6 +522,7 @@ function Scene1() {
 		background(bg);
 		quitMsg = false;
 		birdBackground.play();
+		//kitchenSong.play();
 	}
 
 	// This is the main drawing function - it will run constantly in a loop,
@@ -808,8 +813,8 @@ function Scene1() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
-		scale = Math.round(scale);
-		vScale = Math.round(scale);
+
+
 	}
 }
 
@@ -908,8 +913,8 @@ function Scene2() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
-		scale = Math.round(scale);
-		vScale = Math.round(scale);
+
+
     background(bg);
 		quitMsg = false;
 		keyboardTypingShort = this.sceneArgs[5].typingShort;
@@ -1563,8 +1568,8 @@ function Scene2() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
-		scale = Math.round(scale);
-		vScale = Math.round(scale);
+
+
 	}
 }
 // ================== SCENE 3 ==================
@@ -1620,8 +1625,8 @@ function Scene3() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
-		scale = Math.round(scale);
-		vScale = Math.round(scale);
+
+
     background(bg);
 		quitMsg = false;
 		powerUp2 = this.sceneArgs[5].powerUp2;
@@ -2008,8 +2013,8 @@ function Scene3() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
-		scale = Math.round(scale);
-		vScale = Math.round(scale);
+
+
 	}
 }
 // ================== SCENE 4 ==================
@@ -2074,8 +2079,8 @@ function Scene4() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
-		scale = Math.round(scale);
-		vScale = Math.round(scale);
+
+
     background(bg);
 		quitMsg = false;
 		flashbackSound = this.sceneArgs[5].flashback;
@@ -2462,8 +2467,8 @@ function Scene4() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
-		scale = Math.round(scale);
-		vScale = Math.round(scale);
+
+
 	}
 }
 // ================== SCENE 5 ==================
@@ -2515,8 +2520,8 @@ function Scene5() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
-		scale = Math.round(scale);
-		vScale = Math.round(scale);
+
+
     background(bg);
 		quitMsg = false;
 		mouseClick = this.sceneArgs[5].mouseClick;
@@ -2742,7 +2747,7 @@ function Scene5() {
 			scale = width / 1440;
 			vScale = ((width / 16) * 9) / 900;
 		}
-		scale = Math.round(scale);
-		vScale = Math.round(scale);
+
+
 	}
 }
