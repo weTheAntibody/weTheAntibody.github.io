@@ -270,9 +270,87 @@ input[class^="btn-"]:hover {
   text-transform: lowercase;
 }
 
+#header-phone {
+    display: none;
+}
+
 /* Media Queries */
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 680px) {
+
+   .topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    justify-content: space-around;
+    font-size: 2rem;
+    display: flex;
+  }
+
+  .topnav a {
+      margin-top: 30px;
+  }
+
+  .topnav a i {
+      margin-top: 20px;
+  }
+
+  #directories {
+    display: none;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    font-size: 1.5rem;
+  }
+
+  #directories a {
+      margin-bottom: 5%;
+  }
+
+  nav {
+      display: flex;
+      position: relative;
+      justify-content: space-around;
+      font-size: 2rem;
+  }
+
+  #hamburger {
+      margin-top: 2%;
+  }
+
+  #textbox {
+      position: absolute;
+      /* margin: 55% 10%; */
+      top: 300px;
+      left: 25px;
+      right: 25px;
+      color: black;
+      font-size: 1.53rem;
+  }
+  #header-phone {
+      display: block;
+      text-align: left;
+      height: 100vh;
+      background: url("../assets/Backgrounds/SVG/living room.svg") no-repeat 35% 20%;
+      background-size: cover;
+  }
+
+  #header-phone::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255,255,255,0.7);
+  }
+  #header-home {
+      display: none;
+  }
+}
+
+/* @media screen and (min-width: 992px) {
   .team-pictures {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -294,4 +372,4 @@ input[class^="btn-"]:hover {
   #header-home .header-content h1 {
     font-size: 2rem;
   }
-}
+} */
