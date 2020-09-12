@@ -292,7 +292,7 @@ function Scene0() {
 			vScale = ((width / 16) * 9) / 900;
 		}
 
-		
+
     background(bg);
 		quitMsg = false;
   }
@@ -619,20 +619,20 @@ function Scene1() {
 	}
 
 	this.drawPhone = function() {
-		image(imgPhone, phoneX * scale, 105 * vScale, 470 * scale, 920 * vScale);
+		image(imgPhone, phoneX * scale, 105 * vScale, 460 * scale, 920 * vScale);
 		if (dialogueIndex > 1) {
 			if (phoneX > 165) {
 				phoneX -= 30;
 			}
 			if (phoneX <= 165) {
 				if (dialogueIndex >= 2) {
-					image(drewPost, 754 * scale, 33 * vScale, 522 * scale, 225 * vScale);
+					image(drewPost, 754 * scale, 33 * vScale, 502 * scale, 225 * vScale);
 				}
 				if (dialogueIndex >= 3) {
-					image(emilyPost, 754 * scale, 279 * vScale, 522 * scale, 197 * vScale);
+					image(emilyPost, 754 * scale, 279 * vScale, 502 * scale, 197 * vScale);
 				}
 				if (dialogueIndex >= 4) {
-					image(jackPost, 754 * scale, 496 * vScale, 522 * scale, 202 * vScale);
+					image(jackPost, 754 * scale, 496 * vScale, 502 * scale, 202 * vScale);
 				}
 			}
 		}
@@ -1040,7 +1040,7 @@ function Scene2() {
 	}
 
 	this.drawPhone = function() {
-		image(imgPhone, phoneX * scale, 105 * vScale, 420 * scale, 920 * vScale);
+		image(imgPhone, phoneX * scale, 105 * vScale, 400 * scale, 920 * vScale);
 	}
 
 	this.drawCrashCourse = function() {
